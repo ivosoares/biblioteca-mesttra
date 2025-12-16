@@ -27,5 +27,67 @@
       "email": "email@email.com",
       "tel": "119684984"
     }
+  ],
+  "livros": [
+    {
+    "id": "1",
+    "titulo": "Dom Casmurro",
+    "isbn": "978-85-359-0277-1",
+    "anoPublicacao": "1899",
+    "numeroPaginas": "256",
+    "idAutor": "1",
+    "idEditora": "1",
+    "idCategoria": "1"
+    },
+    {
+  "id": "2",
+  "titulo": "O Cortiço",
+  "isbn": "978-85-359-0123-4",
+  "anoPublicacao": "1890",
+  "numeroPaginas": "304",
+  "idAutor": "2",
+  "idEditora": "1",
+  "idCategoria": "1"
+  },
+  {
+  "id": "3",
+  "titulo": "Memórias Póstumas de Brás Cubas",
+  "isbn": "978-85-359-0456-7",
+  "anoPublicacao": "1881",
+  "numeroPaginas": "240",
+  "idAutor": "1",
+  "idEditora": "2",
+  "idCategoria": "1"
+  },
+  {
+  "id": "4",
+  "titulo": "Capitães da Areia",
+  "isbn": "978-85-359-0789-0",
+  "anoPublicacao": "1937",
+  "numeroPaginas": "272",
+  "idAutor": "3",
+  "idEditora": "3",
+  "idCategoria": "2"
+  },
+  {
+  "id": "5",
+  "titulo": "Vidas Secas",
+  "isbn": "978-85-359-0999-3",
+  "anoPublicacao": "1938",
+  "numeroPaginas": "176",
+  "idAutor": "4",
+  "idEditora": "2",
+  "idCategoria": "2"
+  },
+  {
+  "id": "6",
+  "titulo": "A Hora da Estrela",
+  "isbn": "978-85-359-1111-8",
+  "anoPublicacao": "1977",
+  "numeroPaginas": "96",
+  "idAutor": "5",
+  "idEditora": "4",
+  "idCategoria": "3"
+  }
   ]
 }
