@@ -48,14 +48,19 @@
   ],
   "categorias": [
     {
-      "id": "c1e1",
-      "nomeCategoria": "Ficção",
-      "descricaoCategoria": "Ficção"
-    },
-    {
       "id": "f94f",
       "nomeCategoria": "Romance",
-      "descricaoCategoria": "Romance"
+      "descricaoCategoria": "Categoria destinada a livros com narrativas centradas em relacionamentos humanos, emoções, sentimentos e conflitos pessoais, explorando histórias de amor, drama e experiências emocionais."
+    },
+    {
+      "id": "1a6d",
+      "nomeCategoria": "Ficção",
+      "descricaoCategoria": "Abrange obras baseadas em narrativas imaginárias ou fictícias, que não correspondem à realidade, incluindo mundos inventados,"
+    },
+    {
+      "id": "a402",
+      "nomeCategoria": "Tecnologia",
+      "descricaoCategoria": "Reúne livros voltados à área de tecnologia da informação e inovação, abordando temas como programação, sistemas computacionais, redes, desenvolvimento de software"
     }
   ]
 }

@@ -56,10 +56,10 @@ async function listarCategoria(){
                     <button class="btn btn-sm btn-info text-white me-1">
                         <i class="bi bi-eye-fill"></i>
                     </button>
-                    <a href="./edicao.html?id=${categoria.id}" class="btn btn-sm btn-warning text-white me-1">
+                    <a href="./edicao-categoria.html?id=${categoria.id}" class="btn btn-sm btn-warning text-white me-1">
                         <i class="bi bi-pencil-fill"></i>
                     </a>
-                    <button class="btn btn-sm btn-danger" onclick="excluirAluno('${categoria.id}')">
+                    <button class="btn btn-sm btn-danger" onclick="excluirCategoria('${categoria.id}')">
                         <i class="bi bi-trash-fill"></i>
                     </button>
                 </td>
@@ -72,3 +72,23 @@ async function listarCategoria(){
 }
 
 listarCategoria();
+
+async function excluirCategoria(id){
+    const apiUrlCategoria = `http://localhost:3000/categorias/${id}`
+
+    // estrutura de requisição o DELETE
+
+    const request = new Request(apiUrlCategoria,{
+        method:'DELETE'
+    })
+   
+    if(confirm("Deseja Excluir está categoria")){
+        const response = await fetch(request);
+        const categoria = await response.json();
+
+        tabelaCategoria.innerHTML = "";
+        listarCategoria()
+    }
+
+
+}
